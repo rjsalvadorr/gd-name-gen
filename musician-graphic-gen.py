@@ -41,9 +41,11 @@ outStr += '//////   GENERATOR -- MUSIC GRAPHIC BRIEF\n\n'
 
 outStr += f'BAND NAME: {random_line(bandNames).rstrip()}\n'
 bandNames.seek(0)
+outStr += f'LABEL: {random_line(bandNames).rstrip()}\n'
+bandNames.seek(0)
 outStr += f'ALBUM NAME: {random_line(bandNames).rstrip()}\n'
 bandGenres = 'GENRE(S): '
-for x in range(4):
+for x in range(3):
     genreNames.seek(0)
     delim = (",", "")[x == 0]
     bandGenres += f'{delim} {random_line(genreNames).rstrip()}'
