@@ -5,11 +5,11 @@ from datetime import datetime, timedelta
 #/////////#/////////#/////////#/////////#/////////#/////////
 #///////////   LOADING FILES
 
-bandNames = open("band-names.txt", "r", encoding='utf-8')
-albumNames = open("album-names.txt", "r", encoding='utf-8')
-cityNames = open("city-names.txt", "r", encoding='utf-8')
-countryNames = open("country-names.txt", "r", encoding='utf-8')
-genreNames = open("genre-list.txt", "r", encoding='utf-8')
+bandNames = open("data/band-names.txt", "r", encoding='utf-8')
+albumNames = open("data/album-names.txt", "r", encoding='utf-8')
+cityNames = open("data/city-names.txt", "r", encoding='utf-8')
+countryNames = open("data/country-names.txt", "r", encoding='utf-8')
+genreNames = open("data/genre-list.txt", "r", encoding='utf-8')
 
 
 #/////////#/////////#/////////#/////////#/////////#/////////

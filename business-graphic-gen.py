@@ -5,15 +5,15 @@ from datetime import datetime, timedelta
 #/////////#/////////#/////////#/////////#/////////#/////////
 #///////////   LOADING FILES
 
-businessNames = open("business-names.txt", "r", encoding='utf-8')
-businessIndustryList = open("business-industry-list.txt", "r", encoding='utf-8')
+businessNames = open("data/business-names.txt", "r", encoding='utf-8')
+businessIndustryList = open("data/business-industry-list.txt", "r", encoding='utf-8')
 
-countryNames = open("country-names.txt", "r", encoding='utf-8')
-countryCodes = open("country-codes.txt", "r", encoding='utf-8')
-cityNames = open("city-names.txt", "r", encoding='utf-8')
-streetNames = open("street-names.txt", "r", encoding='utf-8')
+countryNames = open("data/country-names.txt", "r", encoding='utf-8')
+countryCodes = open("data/country-codes.txt", "r", encoding='utf-8')
+cityNames = open("data/city-names.txt", "r", encoding='utf-8')
+streetNames = open("data/street-names.txt", "r", encoding='utf-8')
 
-personNames = open("person-names.txt", "r", encoding='utf-8')
+personNames = open("data/person-names.txt", "r", encoding='utf-8')
 
 
 #/////////#/////////#/////////#/////////#/////////#/////////
