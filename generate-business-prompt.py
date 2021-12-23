@@ -43,7 +43,7 @@ def random_num_string():
 #/////////#/////////#/////////#/////////#/////////#/////////
 #///////////    TEXT GENERATION
 
-f = open("business-graphic-gen-output.txt", "w", encoding='utf-8')
+f = open("output-business-prompt.txt", "w", encoding='utf-8')
 numPrompts = 12
 
 outStr = '\n////////////////////////////////////////////////////////////\n'

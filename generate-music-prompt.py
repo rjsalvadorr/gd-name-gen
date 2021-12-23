@@ -36,7 +36,7 @@ def random_date(start, end):
 #/////////#/////////#/////////#/////////#/////////#/////////
 #///////////    TEXT GENERATION
 
-f = open("music-graphic-gen-output.txt", "w", encoding='utf-8')
+f = open("output-music-prompt.txt", "w", encoding='utf-8')
 numPrompts = 12
 
 outStr = '\n////////////////////////////////////////////////////////////\n'
