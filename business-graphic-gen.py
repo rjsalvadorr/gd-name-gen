@@ -43,77 +43,66 @@ def random_num_string():
 #/////////#/////////#/////////#/////////#/////////#/////////
 #///////////    TEXT GENERATION
 
+f = open("business-graphic-gen-output.txt", "w", encoding='utf-8')
+numPrompts = 12
+
 outStr = '\n////////////////////////////////////////////////////////////\n'
 outStr += '//////   GENERATOR -- BUSINESS GRAPHIC BRIEF\n\n'
 
-outStr += f'BUSINESS NAME: {random_line(businessNames).rstrip()}\n'
+print(outStr)
+f.write(outStr)
 
-busIndustries = '\nINDUSTRIES/BUSINESS SECTORS: \n\n'
-for x in range(3):
-    businessIndustryList.seek(0)
-    busIndustries += f'- {random_line(businessIndustryList).rstrip()}\n'
-outStr += f'{busIndustries}\n'
+for x in range(numPrompts):
+    loopStr = f'\n\n\n//////   CLIENT {(x + 1):03}   //////////////////////////////\n\n'
 
-# outStr += '\nTRACKLIST: \n'
-# numTracks = random.randint(6,13)
-# 
-# for x in range(numTracks):
-#     bandNames.seek(0)
-#     bName = random_line(bandNames).rstrip()
-#     trackNum = x + 1
-#     trackMinutes = random.randint(0,8)
-#     trackSecs = random.randint(0,59)
-# 	
-#     outStr += f'{trackNum:02} - {bName} ({trackMinutes}:{trackSecs:02})\n'
-# 
-# bandNames.seek(0)
-# albumNames.seek(0)
-# tNames = random_line(bandNames).rstrip()
-# tNames += f' - OR - {random_line(albumNames).rstrip()}'
-# outStr += f'\nTOUR NAME:\n{tNames}\n'
-# 
+    businessNames.seek(0)
+    loopStr += f'BUSINESS NAME: {random_line(businessNames).rstrip()}\n'
 
-outStr += 'HEAD OFFICE: \n\n'
-streetNames.seek(0)
-cityNames.seek(0)
-countryNames.seek(0)
+    busIndustries = '\nINDUSTRIES/BUSINESS SECTORS: \n\n'
+    for x in range(3):
+        businessIndustryList.seek(0)
+        busIndustries += f'- {random_line(businessIndustryList).rstrip()}\n'
+    loopStr += f'{busIndustries}\n'
 
-addrNum = random.randint(1, 3999)
-addrStreet = random_line(streetNames).rstrip()
-addrCity = random_line(cityNames).rstrip()
-addrCountry = random_line(countryNames).rstrip()
-addrPhone = f'{random_num_string()}-{random_num_string()}{random_num_string()}'
-
-headOfficeLocation = f'{addrNum} {addrStreet}\n{addrCity}, {addrCountry}\n{addrPhone}'
-outStr += f'{headOfficeLocation}\n\n'
-
-numLocations = random.randint(0,4)
-outStr += ('', 'OTHER LOCATIONS: \n\n')[numLocations > 0]
-for x in range(numLocations):
+    loopStr += 'HEAD OFFICE: \n\n'
     streetNames.seek(0)
     cityNames.seek(0)
     countryNames.seek(0)
 
-    sattNum = random.randint(1, 3999)
-    sattStreet = random_line(streetNames).rstrip()
-    sattCity = random_line(cityNames).rstrip()
-    sattCountry = random_line(countryNames).rstrip()
-    sattPhone = f'{random_num_string()}-{random_num_string()}{random_num_string()}'
+    addrNum = random.randint(1, 3999)
+    addrStreet = random_line(streetNames).rstrip()
+    addrCity = random_line(cityNames).rstrip()
+    addrCountry = random_line(countryNames).rstrip()
+    addrPhone = f'{random_num_string()}-{random_num_string()}{random_num_string()}'
 
-    satelliteLocation = f'{sattNum} {sattStreet}\n{sattCity}, {sattCountry}\n{sattPhone}'
-    outStr += f'{satelliteLocation}\n\n'
+    headOfficeLocation = f'{addrNum} {addrStreet}\n{addrCity}, {addrCountry}\n{addrPhone}'
+    loopStr += f'{headOfficeLocation}\n\n'
 
+    numLocations = random.randint(0,4)
+    loopStr += ('', 'OTHER LOCATIONS: \n\n')[numLocations > 0]
+    for x in range(numLocations):
+        streetNames.seek(0)
+        cityNames.seek(0)
+        countryNames.seek(0)
 
-numPersonnel = random.randint(2, 8)
-outStr += 'PERSONNEL: \n\n'
-for x in range(numPersonnel):
-    personNames.seek(0)
-    pName = random_line(personNames).rstrip()
-    pPhone = f'{random_num_string()}-{random_num_string()}{random_num_string()}'
-    outStr += f'{pName}\n{pPhone}\n\n'
+        sattNum = random.randint(1, 3999)
+        sattStreet = random_line(streetNames).rstrip()
+        sattCity = random_line(cityNames).rstrip()
+        sattCountry = random_line(countryNames).rstrip()
+        sattPhone = f'{random_num_string()}-{random_num_string()}{random_num_string()}'
 
-print(outStr)
+        satelliteLocation = f'{sattNum} {sattStreet}\n{sattCity}, {sattCountry}\n{sattPhone}'
+        loopStr += f'{satelliteLocation}\n\n'
 
-f = open("business-graphic-gen-output.txt", "a", encoding='utf-8')
-f.write(outStr)
+    numPersonnel = random.randint(2, 8)
+    loopStr += 'PERSONNEL: \n\n'
+    for x in range(numPersonnel):
+        personNames.seek(0)
+        pName = random_line(personNames).rstrip()
+        pPhone = f'{random_num_string()}-{random_num_string()}{random_num_string()}'
+        loopStr += f'{pName}\n{pPhone}\n\n'
+
+    print(loopStr)
+    f.write(loopStr)
+
 f.close()

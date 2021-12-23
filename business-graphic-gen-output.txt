@@ -2,58 +2,534 @@
 ////////////////////////////////////////////////////////////
 //////   GENERATOR -- BUSINESS GRAPHIC BRIEF
 
-BUSINESS NAME: Parker Ionics
+
+
+
+//////   CLIENT 001   //////////////////////////////
+
+BUSINESS NAME: Huntsville Joe Davis Stadium
 
 INDUSTRIES/BUSINESS SECTORS: 
 
-- Software publishers (except video game publishers)
-- Equity funds - foreign
-- Automobile dealers
+- Ready-mix concrete manufacturing
+- General freight trucking, long distance
+- Concrete reinforcing bar manufacturing
 
 HEAD OFFICE: 
 
-980 Brangton Boulevard South
-Guilhon, Malawi
-0023-96104823
+1933 Brewer House Arcade
+Sallagriffon, Chile
+3341-85508253
 
 OTHER LOCATIONS: 
 
-3357 Northwest Wythal Arch
-Meulers, Central African Republic
-8160-30603501
+2571 Campbelltown Green
+Mazeyrat, Sint Maarten
+7576-12926488
 
-3730 Teneyck Garth
-Fairview, American Samoa
-8721-43015133
+523 Bowler Rise
+Az Zughbah, Argentina
+3524-22933126
 
-3577 West Creek View Row
-Cloton, Niger
-7882-86543586
+1609 West Shoredale Street
+Zhukovshchina, Eswatini
+2773-28477470
 
-2435 West Callicoma Grove
-Penn, Korea
-2485-61646302
+683 South Frati Byway
+Ventoso, Uruguay
+6114-58391563
 
 PERSONNEL: 
 
-Bryon W. Besing
-9145-00185579
+Dorsey E. Stere
+6017-65888371
 
-Gus O. Depino
-3218-83675195
+Richie K. Guarneros
+7972-80436293
 
-Modesto S. Bobbe
-7485-45175716
+Winford T. Falkowski
+5194-56172419
 
-Gustavo T. Sperry
-6735-78356237
+Cameron H. Tolia
+9274-93976381
+
+Carroll I. Renauld
+6474-55759618
+
+
+
+
+//////   CLIENT 002   //////////////////////////////
+
+BUSINESS NAME: Elim Assembly Of God
+
+INDUSTRIES/BUSINESS SECTORS: 
+
+- Floor covering stores
+- Electrical wiring and construction supplies merchant wholesalers
+- Paperboard mills
+
+HEAD OFFICE: 
+
+1476 Balsa Nook
+Gharith, Gambia
+7567-60686244
+
+OTHER LOCATIONS: 
+
+2597 Haase Lane
+Penn, Morocco
+8197-90620388
+
+PERSONNEL: 
+
+Jesus L. Moliere
+3544-67388025
+
+Merle W. Lona
+7153-26771582
+
+Long Z. Nona
+0070-77864788
+
+Lauren D. McHorse
+8571-19665386
+
+Raymundo E. Trinh
+1580-17514082
+
+Bryce T. Mistak
+4535-96640637
+
+Timothy G. Jatczak
+9181-40054079
+
+Randal O. Gruz
+2819-53714064
+
+
+
+
+//////   CLIENT 003   //////////////////////////////
+
+BUSINESS NAME: Pet Supply Store
+
+INDUSTRIES/BUSINESS SECTORS: 
+
+- Motion picture and video industries
+- Non-trusteed pension funds
+- Recyclable metal merchant wholesalers
+
+HEAD OFFICE: 
+
+24 Malvern Hill Close East
+St. Jean-Sur-Richelieu, Mali
+0261-93372646
+
+PERSONNEL: 
+
+Chet B. Paxos
+2427-43098559
+
+Richie K. Guarneros
+1237-69514672
+
+Martin B. Jahangir
+8026-67388545
+
+Lyle N. Gresser
+3527-41839690
+
+
+
+
+//////   CLIENT 004   //////////////////////////////
+
+BUSINESS NAME: Philip Schaffer
+
+INDUSTRIES/BUSINESS SECTORS: 
+
+- Machinery, equipment and supplies merchant wholesalers
+- Office furniture (including fixtures) manufacturing
+- Transit and ground passenger transportation
+
+HEAD OFFICE: 
+
+2974 West Mira Loma Byway
+Aubrives, Suriname
+1566-10322917
+
+PERSONNEL: 
+
+August E. Hering
+9317-13142642
+
+Manuel M. Suiters
+6591-18339815
+
+Tyron D. Kohman
+9226-06376325
+
+Agustin K. Raygo
+0692-82949429
+
+Kurtis U. Paterni
+5202-51989013
+
+Noe M. Wolfla
+2708-33708951
+
+
+
+
+//////   CLIENT 005   //////////////////////////////
+
+BUSINESS NAME: Southern Seedlings
+
+INDUSTRIES/BUSINESS SECTORS: 
+
+- All other non-metallic mineral mining and quarrying
+- Coffee and tea manufacturing
+- Flour milling
+
+HEAD OFFICE: 
+
+2757 Southeast Vistosa Knoll
+Qā’im, Réunion
+9791-31971412
+
+OTHER LOCATIONS: 
+
+2511 Southeast Collins Taft
+Pesegueiro, Saint Kitts and Nevis
+6080-10158790
+
+1662 North Remus Avenue
+Rustico, New Zealand
+6511-40234441
+
+PERSONNEL: 
+
+Dwain D. Syre
+8648-81608699
+
+Franklyn P. Weidman
+7652-56961480
+
+Kenny O. Llorens
+4600-13107857
+
+Wyatt T. Burkholder
+0673-75472692
+
+Donn E. Tertel
+8955-00979663
+
+Doug V. Chamizo
+0459-37386663
+
+Edmond H. Artin
+9813-44299739
+
+Joe G. Housen
+0982-43764663
+
+
+
+
+//////   CLIENT 006   //////////////////////////////
+
+BUSINESS NAME: Westbrooke Farm
+
+INDUSTRIES/BUSINESS SECTORS: 
+
+- Insurance agencies and brokerages
+- Boiler, tank and shipping container manufacturing
+- Other activities related to credit intermediation
+
+HEAD OFFICE: 
+
+665 Southeast Brendel Trail
+Izarra, Saint Barthélemy
+8367-09051835
+
+OTHER LOCATIONS: 
+
+939 May Elm
+Mave, Czechia
+2566-19416047
+
+155 Northeast Bertha Promenade
+Al Manjārah, Christmas Island
+6100-92716008
+
+908 Perry Vale Windrush Way
+Andalusia, Sweden
+8392-90125134
+
+2048 Green Man West
+Shagra, Bhutan
+3216-50888130
+
+PERSONNEL: 
+
+Jacob U. Kallmann
+6299-42903865
+
+Waldo T. Seablom
+4396-31074167
+
+Alberto M. Urquiza
+6081-30487458
+
+Ed W. Zuver
+5492-26522138
+
+
+
+
+//////   CLIENT 007   //////////////////////////////
+
+BUSINESS NAME: Greenpoint Branch Library
+
+INDUSTRIES/BUSINESS SECTORS: 
+
+- Sandstone mining and quarrying
+- Specialized freight trucking
+- Folding paperboard box manufacturing
+
+HEAD OFFICE: 
+
+472 Beechin Wood North
+Zheleznaya Gora, Falkland Islands
+1607-55129626
+
+PERSONNEL: 
+
+Anderson N. Biemer
+4732-24920430
+
+Seymour C. Yarnell
+1697-85176376
+
+Loren U. Bomstad
+0170-58574881
 
 Derick Z. Blachowicz
-4930-91747262
+3696-83493736
 
-Otis B. Croshaw
-2082-48399724
 
-Hank V. Cream
-1944-30580849
+
+
+//////   CLIENT 008   //////////////////////////////
+
+BUSINESS NAME: Sundance Farms
+
+INDUSTRIES/BUSINESS SECTORS: 
+
+- General freight trucking, long distance, less than truck-load
+- Industrial gas manufacturing
+- Aerospace product and parts manufacturing
+
+HEAD OFFICE: 
+
+3924 North Champlain Close
+Broadlands, Cuba
+1962-57845793
+
+PERSONNEL: 
+
+Anderson N. Biemer
+7573-23080564
+
+Isiah B. Osweiler
+3166-31717114
+
+Jospeh N. Elkus
+3716-78933481
+
+Mario N. McPhall
+8732-33338090
+
+Everett R. Nachtigall
+0682-03715636
+
+
+
+
+//////   CLIENT 009   //////////////////////////////
+
+BUSINESS NAME: Quinten Gregory Studio Inc
+
+INDUSTRIES/BUSINESS SECTORS: 
+
+- Plastic window and door manufacturing
+- Explosives manufacturing
+- Tax preparation services
+
+HEAD OFFICE: 
+
+2108 Southeast Vistosa Knoll
+Naujat, Namibia
+4741-08729994
+
+OTHER LOCATIONS: 
+
+1985 Caryll Grove East
+Souppes, Switzerland
+0711-34393052
+
+PERSONNEL: 
+
+Colby H. Macneil
+7843-67620387
+
+Jefferson R. Areyan
+5200-94703421
+
+Nolan S. Proscia
+0483-09419132
+
+
+
+
+//////   CLIENT 010   //////////////////////////////
+
+BUSINESS NAME: Radford University
+
+INDUSTRIES/BUSINESS SECTORS: 
+
+- Business schools and computer and management training
+- Printing
+- Hardware merchant wholesalers
+
+HEAD OFFICE: 
+
+2951 North Velmere Plaza
+Rocheville, Faroe Islands
+4505-76243768
+
+PERSONNEL: 
+
+Abel J. Zakis
+6391-22537207
+
+Adrian R. Marymee
+6466-12732242
+
+Jame M. Megahan
+6785-14405055
+
+Dick Q. Siefker
+9514-82029142
+
+Laurence A. Nerios
+8869-87116206
+
+Cory F. Corp
+7980-39344391
+
+Valentin B. Jauer
+7900-81577151
+
+Matthew T. Kilpela
+7841-87434150
+
+
+
+
+//////   CLIENT 011   //////////////////////////////
+
+BUSINESS NAME: North Star Mutual Insurance CO
+
+INDUSTRIES/BUSINESS SECTORS: 
+
+- Fibre, yarn and thread mills
+- Florists
+- Lime and gypsum product manufacturing
+
+HEAD OFFICE: 
+
+2620 East Lyon Passage
+Dundurn, Saint Helena, Ascension and Tristan da Cunha
+9765-61508154
+
+OTHER LOCATIONS: 
+
+1354 Southeast White Hill
+Suikkila, Algeria
+3307-84387604
+
+179 North Bradgate Grove
+Britt, French Guiana
+5210-46531188
+
+3519 Kuts Oval West
+Jubaila, Congo
+9917-37491896
+
+PERSONNEL: 
+
+Jordan X. Hadorn
+2312-31913449
+
+Basil D. Scheff
+4722-18664354
+
+Sid P. Hortin
+7893-37744965
+
+Gary R. Hansberger
+8916-36759078
+
+Alexander E. Delbalso
+9815-08037250
+
+Andy Q. Kolak
+2192-88549320
+
+
+
+
+//////   CLIENT 012   //////////////////////////////
+
+BUSINESS NAME: Zan Snider
+
+INDUSTRIES/BUSINESS SECTORS: 
+
+- Other automotive mechanical and electrical repair and maintenance
+- Securitization vehicles
+- Narrow fabric mills and Schiffli machine embroidery
+
+HEAD OFFICE: 
+
+668 Alma College Bay
+Umm al Bikār, Sao Tome and Principe
+4909-28346321
+
+OTHER LOCATIONS: 
+
+1979 East New Brighton Service
+Otero, Central African Republic
+9841-37454737
+
+PERSONNEL: 
+
+Thomas E. Tylenda
+0762-10036826
+
+Emerson D. Belval
+5787-44919072
+
+Werner R. Faustine
+1980-78823227
+
+Andre K. Krase
+7921-55893667
+
+Jeffry V. Ceynar
+5480-98332504
+
+Jewel S. Dalessio
+4359-61013635
 

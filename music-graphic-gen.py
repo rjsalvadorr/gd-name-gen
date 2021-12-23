@@ -36,52 +36,61 @@ def random_date(start, end):
 #/////////#/////////#/////////#/////////#/////////#/////////
 #///////////    TEXT GENERATION
 
+f = open("music-graphic-gen-output.txt", "w", encoding='utf-8')
+numPrompts = 12
+
 outStr = '\n////////////////////////////////////////////////////////////\n'
-outStr += '//////   GENERATOR -- MUSIC GRAPHIC BRIEF\n\n'
-
-outStr += f'BAND NAME: {random_line(bandNames).rstrip()}\n'
-bandNames.seek(0)
-outStr += f'LABEL: {random_line(bandNames).rstrip()}\n'
-bandNames.seek(0)
-outStr += f'ALBUM NAME: {random_line(bandNames).rstrip()}\n'
-bandGenres = 'GENRE(S): '
-for x in range(3):
-    genreNames.seek(0)
-    delim = (",", "")[x == 0]
-    bandGenres += f'{delim} {random_line(genreNames).rstrip()}'
-outStr += f'{bandGenres}\n'
-
-outStr += '\nTRACKLIST: \n'
-numTracks = random.randint(6,13)
-
-for x in range(numTracks):
-    bandNames.seek(0)
-    bName = random_line(bandNames).rstrip()
-    trackNum = x + 1
-    trackMinutes = random.randint(0,8)
-    trackSecs = random.randint(0,59)
-	
-    outStr += f'{trackNum:02} - {bName} ({trackMinutes}:{trackSecs:02})\n'
-
-bandNames.seek(0)
-albumNames.seek(0)
-tNames = random_line(bandNames).rstrip()
-tNames += f' - OR - {random_line(albumNames).rstrip()}'
-outStr += f'\nTOUR NAME:\n{tNames}\n'
-
-outStr += '\nTOUR STOPS: \n'
-numCities = random.randint(6,20)
-tourStart = datetime.strptime('1/1/2032 1:30 PM', '%m/%d/%Y %I:%M %p')
-tourEnd = datetime.strptime('12/30/2099 4:50 AM', '%m/%d/%Y %I:%M %p')
-
-for x in range(numCities):
-    cityNames.seek(0)
-    countryNames.seek(0)
-    eventDay = random_date(tourStart, tourEnd).strftime("%b %d, %Y")
-    outStr += f'{eventDay} - {random_line(cityNames).rstrip()}, {random_line(countryNames).rstrip()}\n'
+outStr += '//////   GENERATOR -- MUSIC GRAPHIC BRIEF\n'
 
 print(outStr)
-
-f = open("music-graphic-gen-output.txt", "a", encoding='utf-8')
 f.write(outStr)
+
+for x in range(numPrompts):
+    loopStr = f'\n\n\n\n//////   ALBUM {(x + 1):03}   //////////////////////////////\n\n'
+
+    bandNames.seek(0)
+    loopStr += f'BAND NAME: {random_line(bandNames).rstrip()}\n'
+    bandNames.seek(0)
+    loopStr += f'LABEL: {random_line(bandNames).rstrip()}\n'
+    bandNames.seek(0)
+    loopStr += f'ALBUM NAME: {random_line(bandNames).rstrip()}\n'
+    bandGenres = 'GENRE(S): '
+    for x in range(3):
+        genreNames.seek(0)
+        delim = (",", "")[x == 0]
+        bandGenres += f'{delim} {random_line(genreNames).rstrip()}'
+    loopStr += f'{bandGenres}\n'
+
+    loopStr += '\nTRACKLIST: \n'
+    numTracks = random.randint(6,13)
+
+    for x in range(numTracks):
+        bandNames.seek(0)
+        bName = random_line(bandNames).rstrip()
+        trackNum = x + 1
+        trackMinutes = random.randint(0,8)
+        trackSecs = random.randint(0,59)
+        
+        loopStr += f'{trackNum:02} - {bName} ({trackMinutes}:{trackSecs:02})\n'
+
+    bandNames.seek(0)
+    albumNames.seek(0)
+    tNames = random_line(bandNames).rstrip()
+    tNames += f' -OR- {random_line(albumNames).rstrip()}'
+    loopStr += f'\nTOUR NAME:\n{tNames}\n'
+
+    loopStr += '\nTOUR STOPS: \n'
+    numCities = random.randint(6,20)
+    tourStart = datetime.strptime('1/1/2032 1:30 PM', '%m/%d/%Y %I:%M %p')
+    tourEnd = datetime.strptime('12/30/2099 4:50 AM', '%m/%d/%Y %I:%M %p')
+
+    for x in range(numCities):
+        cityNames.seek(0)
+        countryNames.seek(0)
+        eventDay = random_date(tourStart, tourEnd).strftime("%b %d, %Y")
+        loopStr += f'{eventDay} - {random_line(cityNames).rstrip()}, {random_line(countryNames).rstrip()}\n'
+
+    print(loopStr)
+    f.write(loopStr)
+
 f.close()
