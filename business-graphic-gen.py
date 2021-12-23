@@ -113,3 +113,7 @@ for x in range(numPersonnel):
     outStr += f'{pName}\n{pPhone}\n\n'
 
 print(outStr)
+
+f = open("business-graphic-gen-output.txt", "a", encoding='utf-8')
+f.write(outStr)
+f.close()
